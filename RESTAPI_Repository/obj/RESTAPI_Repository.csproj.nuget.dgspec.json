@@ -1,0 +1,282 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\marziyeh\\source\\repos\\RESTAPI_Repository\\RESTAPI_Repository\\RESTAPI_Repository.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\marziyeh\\source\\repos\\RESTAPI_Repository\\DataAccess.Dapper\\DataAccess.Dapper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\marziyeh\\source\\repos\\RESTAPI_Repository\\DataAccess.Dapper\\DataAccess.Dapper.csproj",
+        "projectName": "DataAccess.Dapper",
+        "projectPath": "C:\\Users\\marziyeh\\source\\repos\\RESTAPI_Repository\\DataAccess.Dapper\\DataAccess.Dapper.csproj",
+        "packagesPath": "C:\\Users\\marziyeh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marziyeh\\source\\repos\\RESTAPI_Repository\\DataAccess.Dapper\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\marziyeh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\marziyeh\\source\\repos\\RESTAPI_Repository\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\marziyeh\\source\\repos\\RESTAPI_Repository\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\marziyeh\\source\\repos\\RESTAPI_Repository\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\marziyeh\\source\\repos\\RESTAPI_Repository\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "C:\\Users\\marziyeh\\source\\repos\\RESTAPI_Repository\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\marziyeh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marziyeh\\source\\repos\\RESTAPI_Repository\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\marziyeh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\marziyeh\\source\\repos\\RESTAPI_Repository\\RESTAPI_Repository\\RESTAPI_Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\marziyeh\\source\\repos\\RESTAPI_Repository\\RESTAPI_Repository\\RESTAPI_Repository.csproj",
+        "projectName": "RESTAPI_Repository",
+        "projectPath": "C:\\Users\\marziyeh\\source\\repos\\RESTAPI_Repository\\RESTAPI_Repository\\RESTAPI_Repository.csproj",
+        "packagesPath": "C:\\Users\\marziyeh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marziyeh\\source\\repos\\RESTAPI_Repository\\RESTAPI_Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\marziyeh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\marziyeh\\source\\repos\\RESTAPI_Repository\\DataAccess.Dapper\\DataAccess.Dapper.csproj": {
+                "projectPath": "C:\\Users\\marziyeh\\source\\repos\\RESTAPI_Repository\\DataAccess.Dapper\\DataAccess.Dapper.csproj"
+              },
+              "C:\\Users\\marziyeh\\source\\repos\\RESTAPI_Repository\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\marziyeh\\source\\repos\\RESTAPI_Repository\\Domain\\Domain.csproj"
+              },
+              "C:\\Users\\marziyeh\\source\\repos\\RESTAPI_Repository\\Services\\Services.csproj": {
+                "projectPath": "C:\\Users\\marziyeh\\source\\repos\\RESTAPI_Repository\\Services\\Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\marziyeh\\source\\repos\\RESTAPI_Repository\\Services\\Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\marziyeh\\source\\repos\\RESTAPI_Repository\\Services\\Services.csproj",
+        "projectName": "Services",
+        "projectPath": "C:\\Users\\marziyeh\\source\\repos\\RESTAPI_Repository\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\marziyeh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marziyeh\\source\\repos\\RESTAPI_Repository\\Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\marziyeh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\marziyeh\\source\\repos\\RESTAPI_Repository\\DataAccess.Dapper\\DataAccess.Dapper.csproj": {
+                "projectPath": "C:\\Users\\marziyeh\\source\\repos\\RESTAPI_Repository\\DataAccess.Dapper\\DataAccess.Dapper.csproj"
+              },
+              "C:\\Users\\marziyeh\\source\\repos\\RESTAPI_Repository\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\marziyeh\\source\\repos\\RESTAPI_Repository\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
